@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calc {
+  border: 0.1rem solid #0b0b0b;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: transparent;
+  box-shadow: 0rem 0.1rem 1rem rgb(141, 172, 233);
+}
+
+input {
+  width: 30rem;
+  border: 1px solid snow;
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 3rem;
+  text-align: right;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  background: transparent;
+  box-shadow: 0rem 0.1rem 1rem rgba(228, 216, 216, 0.2);
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+button {
+  border:1px solid snow;
+  width: 6.5rem;
+  height: 5rem;
+  margin: 0.5rem;
+  border-radius: 15%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 1.5rem;
+  box-shadow: -5px -5px 10px rgba(225, 225, 225, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #e9cb92, #3cba92, #30dd8a, #e8f1a0);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.btnRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.txt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgba(10, 201, 55, 0.5);
+  background-color: #ffffff;
+  height: 0vh;
+  text-shadow: -2px -2px 5px rgba(255, 255, 255, 0.1);
+  font-size: 1.2rem;
+}
+
+.operator {
+  color: rgb(52, 100, 211);
+}
+
+.eqlBtn {
+  background-color: rgb(93, 215, 63);
+  color: #ffffff;
+}
