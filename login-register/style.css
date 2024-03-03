@@ -1,0 +1,118 @@
+body{
+    padding:90px;
+    background-image: url("photo.png");
+    background-size: cover;
+}
+
+/* contain the input and all */
+.container{
+    max-width: 600px;
+    margin:1 auto;
+    margin-bottom: 20px;
+    padding:30px;
+    box-shadow: rgba(23, 23, 25, 0.407) 0px 9px 29px 0px; 
+}
+
+/* containing all elements slide down */
+.form-group{
+    margin-bottom:40px;
+}
+
+/* input element css */
+.form-group input{
+    box-shadow:rgba(15, 90, 91, 0.4) 0px 5px 28px 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+    font: bold;
+    font-weight: 600;
+    }
+
+/* placeholder input */
+    input::placeholder{
+        color: rgb(11, 11, 11);
+        font-weight: bolder;
+    }
+
+/* icon of inputs */
+    i{
+        position: absolute;
+        color:rgb(27, 27, 214) ;
+        right: 0;
+        margin-left: 500px;
+        margin-top: 10px; 
+    }
+
+/* heading css */
+    h1{
+        margin-bottom: 40px;
+        margin-left: 198px;
+        border: none;
+        color: rgb(236, 89, 10);
+       }
+
+/* blinking of the heading */
+       .glow {
+        font-size: 40px;
+        color: #1e1466;
+        font-weight: 600;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @keyframes glow{
+        from {
+          text-shadow: 0 0 10px #165881, 0 0 20px #2b6fc2, 0 0 30px #d4248e, 0 0 40px #abc818, 
+                       0 0 50px #efef4c, 0 0 60px #e6f23b, 0 0 70px #f0eb50;
+        }
+        to {
+          text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                       0 0 60px #1add3b, 0 0 70px #4fe920, 0 0 80px #20e85c;
+        }
+      }
+
+/* paragraph css */
+      div p{
+        color: rgb(14, 14, 14);
+        margin-top: 25px;
+        font-weight: bolder;
+        margin-left: 120px;
+       
+    }
+    
+/* hyperlink css */
+    div a{
+        color:rgb(33, 118, 175);
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: bolder;
+       text-decoration: none;
+    }
+/* hyperlink hover */
+    div a:hover{
+        color:  rgb(241, 50, 60); 
+    }
+
+    /* button of submit css */
+    .form-btn input{
+        cursor: pointer;
+        box-shadow: rgba(3, 58, 25, 0.4) 0px 5px 28px 0px;
+        border: 2px solid rgb(11, 36, 5);
+        background-color: rgb(56, 189, 36);
+        font-weight: bolder;
+        margin-left: 230px;
+    }
+
+ /* logout css */
+    .text{
+        color: #1e1466;
+        margin-left: 60px;
+        font-weight: 600;
+    }
+    .btn {
+        color: #010c03;
+        margin-left: 140px;
+    }
+    

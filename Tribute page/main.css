@@ -1,0 +1,134 @@
+body {
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    margin-left: 100px;
+    text-align: center;
+    background: url('back.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    color: #ccc;
+    font-family: "Barlow";
+    font-size: 20px;
+    min-width: 260px;
+    max-width: 1900px;
+  }
+  #heading{
+    color: rgb(15, 87, 83);
+    text-shadow: 1px 1px 2px rgb(183, 216, 230), 0 0 25px rgb(148, 231, 120), 0 0 5px rgb(198, 247, 155);
+    background: rgba(228, 236, 240, 0.411);
+    border-radius: 10px;
+  }
+
+  #heading:hover{
+    color: #0a0a0af1;
+  }
+  #title {
+    font-family: "Cinzel";
+    font-size: 75px;
+    color: rgb(10, 37, 95);
+    font-weight: bolder;
+    color: rgb(12, 59, 97);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(122, 208, 230), 0 0 5px rgb(17, 94, 97);
+  }
+  #title:hover{
+    color: rgb(29, 161, 29);
+  }
+  
+  #main {
+    padding: 50px 40px 30px 40px;
+    background: rgba(241, 243, 243, 0.733);
+    background-size: cover;
+    background-attachment: scroll;
+    min-width: 260px;
+    max-width: 1900px;
+  }
+  
+  h2 {
+    font-family: Montez;
+    padding-bottom: 20px;
+    font-size: 45px;
+    color:black;
+    text-shadow: 1px 1px 2px rgb(218, 233, 150), 0 0 25px rgb(205, 227, 233), 0 0 5px rgb(224, 233, 233);
+  }
+  #image {
+    transition: all 0.3s ease-in-out;
+    max-width: 37%;
+    height: auto;
+    border-radius: 99%;
+    display: block;
+    margin: auto;
+    border:2px solid #fff;
+    box-shadow: 0px 6px 5px #176e96;
+    border-radius:190px;
+  }
+  #img {
+    margin: -0.3125em;
+    margin-top: 20px;
+    width: 100%;
+    border: 15px;
+    border-radius: 10px;
+  }
+
+  #info {
+    margin: 40px;
+    text-align: justify;
+    font-size: 18px;
+    display: block;
+    color: #f3f5f7;
+  }
+  
+  #quote {
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    background: rgb(6, 39, 71);
+    font-family: Playball;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(236, 228, 228);
+  }
+  
+  #quote:hover {
+    background: rgba(199, 252, 156, 0.562);
+    transform: scale(1.0);
+  }
+  
+  footer {
+    text-align: center;
+    color: #141414;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+    padding: 0.3125em 0.3125em 0.3125em 0.3125em;
+    text-align: center;
+    display: block;
+    background: rgb(6, 39, 71);
+    transition: all 0.3s ease-in-out;
+    color: rgb(236, 228, 228);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(122, 208, 230), 0 0 5px rgb(17, 94, 97);
+  }
+  a {
+    text-decoration: none;
+  }
+  #link {
+    color: #b5e9a5;
+    font-weight: 900;
+  }
+  #link:hover{
+    color: rgb(133, 194, 240);
+  }
+  hr {
+    border-width: 5px;
+    color: black;
+  }
+  button{
+    background-color: #104f83;
+    color: rgb(241, 234, 234);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
